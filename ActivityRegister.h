@@ -6,7 +6,7 @@
 #define PALANO_ES4_ACTIVITYREGISTER_H
 
 
-#include <list>
+#include <vector>
 #include "Activity.h"
 
 class ActivityRegister {

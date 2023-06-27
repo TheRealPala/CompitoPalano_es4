@@ -21,7 +21,7 @@ void ActivityRegister::removeActivity(const Activity& activity) {
 }
 
 void ActivityRegister::getStatus() {
-    std::cout << "Ore totali: " << oreTotali << std::endl;
-    std::cout << "Durata totale: " << durataTotale << std::endl;
-    std::cout << "Calorie totali: " << calorieTotali << std::endl;
+    std::cout << "Ore totali sveglio: " << oreTotali << std::endl;
+    std::cout << "Durata totale attivita': " << durataTotale << std::endl;
+    std::cout << "Calorie totali bruciate : " << calorieTotali << std::endl;
 }
