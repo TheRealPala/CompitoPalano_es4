@@ -3,4 +3,4 @@ project(Palano_es4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Palano_es4 main.cpp Activity.cpp Activity.h)
+add_executable(Palano_es4 main.cpp Activity.cpp Activity.h ActivityRegister.cpp ActivityRegister.h)

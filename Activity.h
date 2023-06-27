@@ -28,6 +28,10 @@ public:
 
     void incrementMinObiettivo(float increment);
 
+    bool operator==(const Activity &rhs) const;
+
+    bool operator!=(const Activity &rhs) const;
+
 public:
 
 };

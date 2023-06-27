@@ -27,5 +27,17 @@ float Activity::getKcal() const {
 }
 
 void Activity::incrementMinObiettivo(float increment) {
-    this->minObiettivo += increment
-};
+    this->minObiettivo += increment;
+}
+
+bool Activity::operator==(const Activity &rhs) const {
+    return ore == rhs.ore &&
+           durata == rhs.durata &&
+           kcal == rhs.kcal &&
+           descrizione == rhs.descrizione &&
+           minObiettivo == rhs.minObiettivo;
+}
+
+bool Activity::operator!=(const Activity &rhs) const {
+    return !(rhs == *this);
+}
